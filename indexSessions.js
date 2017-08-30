@@ -1,5 +1,5 @@
 let express = require('express');
-let session = require('express-session');
+let session = require('express-session'); //npm install express-session
 
 var app = express();
 app.use(session({
